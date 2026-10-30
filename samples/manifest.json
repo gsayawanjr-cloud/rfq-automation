@@ -1,0 +1,165 @@
+[
+  {
+    "id": "one-line-email",
+    "subject": "TEST-RFQ URGENT - ME fuel injectors + AE gaskets",
+    "body": "Dear Sir,\nPls quote for MV Pacific Star, arriving Singapore this Friday.\nME: MAN B&W 6S50MC-C\n- Fuel injector x 6\n- O-ring for fuel injector, part no. 90910-123, 12 pcs\nAE: Yanmar 6EY18ALW\n- Cylinder head gasket set x 2, see attached list\nAgent details to follow.\nNeed price and delivery time asap.\nRgds\nJ. Reyes\nC/E MV Pacific Star",
+    "attachments": [],
+    "expected": {
+      "vessel": "Pacific Star",
+      "item_count": 3,
+      "part_numbers": [
+        "90910-123"
+      ],
+      "quantities": {
+        "90910-123": 12
+      },
+      "urgency": "CRITICAL",
+      "notes": "Fuel valve vs nozzle must be flagged; the 'attached list' is missing (no attachment)."
+    }
+  },
+  {
+    "id": "pasted-requisition",
+    "subject": "TEST-RFQ Requisition REQ-ENG-2026-114 MV Bukidnon Star",
+    "body": "Good day,\n\nPlease quote the following engine stores. Vessel will call Manila (South Harbor) on 28 Oct 2026, ETD 30 Oct.\n\nVESSEL : MV BUKIDNON STAR      IMO: 9481022\nREQ NO : REQ-ENG-2026-114      DEPT: ENGINE\nMAKER  : MAN B&W   TYPE: 6S46MC-C   ENG NO: 41187\n\nNO.  DESCRIPTION                           PART/DWG NO.     QTY  UNIT\n1    Exhaust valve spindle                 90801-0040-221   1    PC\n2    Exhaust valve bottom piece            90801-0040-180   1    PC\n3    O-ring, exhaust valve housing         90801-0040-305   6    PCS\n4    Fuel valve nozzle                     90910-0101-148   12   PCS\n5    Spring for fuel valve                 90910-0101-160   6    PCS\n6    Piston ring set (1 cyl)               90401-0218-010   2    SETS\n7    Cylinder liner O-ring kit             90301-0115-412   2    KIT\n8    Starting air valve repair kit         90810-0062-901   1    KIT\n9    Cooling water pump mech. seal         --               2    PCS\n10   Lub oil filter element, auto filter   BOLL 1.0021.1    24   PCS\n11   Thermometer 0-120C, back entry        --               3    PCS\n12   Pressure gauge 0-10 bar, 100mm        --               2    PCS\n13   Turbocharger air filter mat           MET42-1129       4    PCS\n14   Gasket, indicator cock                90501-0091-017   12   PCS\n15   Safety valve, cylinder cover          90501-0030-544   1    PC\n\nGenuine or maker-approved only.\nPrepared by: 2/E R. Dizon   Approved: C/E A. Manalo\nBukidnon Star Shipping Corp. - Technical Dept.",
+    "attachments": [],
+    "expected": {
+      "vessel": "Bukidnon Star",
+      "imo": "9481022",
+      "item_count": 15,
+      "part_numbers": [
+        "90801-0040-221",
+        "90801-0040-180",
+        "90801-0040-305",
+        "90910-0101-148",
+        "90910-0101-160",
+        "90401-0218-010",
+        "90301-0115-412",
+        "90810-0062-901",
+        "BOLL 1.0021.1",
+        "MET42-1129",
+        "90501-0091-017",
+        "90501-0030-544"
+      ],
+      "quantities": {
+        "90801-0040-221": 1,
+        "90801-0040-180": 1,
+        "90801-0040-305": 6,
+        "90910-0101-148": 12,
+        "90910-0101-160": 6,
+        "90401-0218-010": 2,
+        "90301-0115-412": 2,
+        "90810-0062-901": 1,
+        "BOLL 1.0021.1": 24,
+        "MET42-1129": 4,
+        "90501-0091-017": 12,
+        "90501-0030-544": 1
+      },
+      "urgency": "NORMAL",
+      "notes": "All 15 rows, part numbers exact (incl. 'BOLL 1.0021.1'); ETA 2026-10-28."
+    }
+  },
+  {
+    "id": "excel-requisition",
+    "subject": "TEST-RFQ Spare parts requisition - MV Mindanao Trader",
+    "body": "Hi,\n\nPlease see attached requisition and send your best offer.\n\nRegards,\nPurchasing\nSulu Sea Shipping Inc.",
+    "attachments": [
+      {
+        "file": "requisition-mindanao-trader.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      }
+    ],
+    "expected": {
+      "vessel": "Mindanao Trader",
+      "imo": "9334156",
+      "item_count": 8,
+      "part_numbers": [
+        "552-0012-01",
+        "548-1171-80",
+        "146616-51000",
+        "146673-01350",
+        "B-52"
+      ],
+      "quantities": {
+        "552-0012-01": 4,
+        "548-1171-80": 1,
+        "146616-51000": 2,
+        "146673-01350": 6,
+        "B-52": 4
+      },
+      "urgency": "HIGH",
+      "notes": "6 Engine + 2 Deck items; blank row skipped; ETA 2026-10-21 (6 days); thrust bearing P/N must not be invented."
+    }
+  },
+  {
+    "id": "scanned-pdf",
+    "subject": "TEST-RFQ scanned requisition MV Palawan Breeze",
+    "body": "Sir, scanned req from vessel attached. Pls quote. Thanks.\n\nMarie\nPalawan Coastal Lines",
+    "attachments": [
+      {
+        "file": "scanned-requisition-palawan-breeze.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "expected": {
+      "vessel": "Palawan Breeze",
+      "item_count": 5,
+      "part_numbers": [
+        "OS-2155",
+        "OS-2156",
+        "1180-221",
+        "GS-HV2-01"
+      ],
+      "quantities": {
+        "OS-2155": 2,
+        "OS-2156": 2,
+        "GS-HV2-01": 2
+      },
+      "ambiguous": {
+        "58-1182": "smudged first character (5B vs 58) must be flagged, not guessed silently"
+      },
+      "urgency": "HIGH",
+      "notes": "Trust the image over the OCR layer (OCR says 0S-2l55, ll80-22l, GS-HVZ-0l). Required by 2026-10-20."
+    }
+  },
+  {
+    "id": "viber-text",
+    "subject": "TEST-RFQ Fwd: Viber - MV Mindoro Pearl spares",
+    "body": "Forwarding Viber chat from C/E of MV Mindoro Pearl. Pls handle.\n\n---- Viber chat ----\n[14/10/2026, 21:05] Chief Lito Ramos (MV Mindoro Pearl): Good evening sir, pa-quote po kami\n[14/10/2026, 21:06] Chief Lito Ramos (MV Mindoro Pearl): for our D/G no.2 Yanmar 6EY18ALW\n[14/10/2026, 21:06] Chief Lito Ramos (MV Mindoro Pearl): 1. fuel injection nozzle 6pcs\n[14/10/2026, 21:07] Chief Lito Ramos (MV Mindoro Pearl): 2. fuel filter element 4pcs part no 41650-502330\n[14/10/2026, 21:07] Chief Lito Ramos (MV Mindoro Pearl): 3. rocker cover gasket 2pcs\n[14/10/2026, 21:15] Chief Lito Ramos (MV Mindoro Pearl): sir correction po, nozzle make it 8pcs\n[14/10/2026, 21:16] Chief Lito Ramos (MV Mindoro Pearl): arrival namin Batangas oct 18, need onboard before departure\n[14/10/2026, 21:16] Chief Lito Ramos (MV Mindoro Pearl): genuine po sana\n[14/10/2026, 21:20] Sales Desk: noted chief, will send quote tmrw",
+    "attachments": [],
+    "expected": {
+      "vessel": "Mindoro Pearl",
+      "item_count": 3,
+      "part_numbers": [
+        "41650-502330"
+      ],
+      "quantities": {
+        "41650-502330": 4
+      },
+      "nozzle_qty": 8,
+      "requester": "Lito Ramos",
+      "urgency": "CRITICAL",
+      "notes": "Nozzle qty must be 8 (correction), requester is the C/E not the forwarder, ETA 2026-10-18 (3 days), genuine."
+    }
+  },
+  {
+    "id": "viber-screenshot",
+    "subject": "TEST-RFQ Fwd: viber screenshot from MV Leyte Spirit",
+    "body": "fwd from 2/E Leyte Spirit viber, see screenshot below",
+    "attachments": [
+      {
+        "file": "viber-screenshot-leyte-spirit.jpg",
+        "contentType": "image/jpeg",
+        "inline": true
+      }
+    ],
+    "expected": {
+      "vessel": "Leyte Spirit",
+      "item_count": 3,
+      "part_numbers": [],
+      "quantities": {},
+      "requester": "Jun Bautista",
+      "urgency": "NORMAL",
+      "notes": "Read from the image only: seal kit x2, impeller x1, Klinger gauge glass o-ring kit 3 sets; ETA Davao 2026-10-25."
+    }
+  }
+]

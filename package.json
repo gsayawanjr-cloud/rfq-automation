@@ -1,0 +1,34 @@
+{
+  "name": "rfq-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "trigger dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@trigger.dev/sdk": "4.7.3",
+    "google-auth-library": "^11.3.0",
+    "imapflow": "^2.4.2",
+    "mailparser": "^3.9.39",
+    "mammoth": "^1.13.0",
+    "nodemailer": "^10.1.0",
+    "pdfkit": "^0.20.2",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "4.7.3",
+    "@types/mailparser": "^3.9.0",
+    "@types/node": "^26.6.5",
+    "@types/nodemailer": "^8.0.2",
+    "@types/pdfkit": "^0.17.6",
+    "trigger.dev": "4.7.3",
+    "typescript": "^5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.23.1": true
+  }
+}
